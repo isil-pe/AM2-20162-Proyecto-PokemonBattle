@@ -1,22 +1,19 @@
-package am2.fbueno.project.pokemonbattle.data.response;
-
-import com.google.gson.annotations.SerializedName;
+package am2.fbueno.project.pokemonbattle.entity;
 
 /**
- * Created by Alumno-J on 09/11/2016.
+ * Created by FBueno on 11/25/2016.
  */
-public class LoginResponse {
-    @SerializedName("ownerId")
-    private String id;
+public class Player {
+    private String objectId;
     private String name;
     private String email;
 
-    public String getId() {
-        return id;
+    public String getObjectId() {
+        return objectId;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setObjectId(String objectId) {
+        this.objectId = objectId;
     }
 
     public String getName() {
