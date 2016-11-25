@@ -1,4 +1,4 @@
-Los integrantes del grupo son
- # Felix Bueno
- # Jose Guanilo
- # Jose Cienfuegos
+Integantes:
+# Felix Bueno
+# Jose Guanilo
+# Jose Cienfuegos
