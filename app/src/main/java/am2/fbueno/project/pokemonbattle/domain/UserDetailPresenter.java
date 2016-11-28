@@ -1,5 +1,7 @@
 package am2.fbueno.project.pokemonbattle.domain;
 
+import android.util.Log;
+
 import java.util.List;
 
 import am2.fbueno.project.pokemonbattle.data.ApiBuilder;
@@ -23,7 +25,7 @@ import retrofit2.Response;
 public class UserDetailPresenter {
     private static final String URL_USER_DETAIL = "/v1/data/UserDetail";
     private static final String URL_BATTLE_WINNER = "/v1/data/UserBattle?where=winner%3D";
-    private static final String URL_BATTLE_LOOSER ="/v1/data/UserDetail?where=looser%3D";
+    private static final String URL_BATTLE_LOOSER ="/v1/data/UserBattle?where=looser%3D";
     private static final String URL_BATTLES ="/v1/data/UserDetail?where=";
 
     private UserDetailView userDetailView;
@@ -52,6 +54,8 @@ public class UserDetailPresenter {
     }
 
     private void showBattles(String url){
+        Log.v("battles", url);
+        Log.v("dataService", dataService==null?"null":"notnull");
         Call<BattleDetailResponse> responseCall = dataService.getBattles(url);
         responseCall.enqueue(new Callback<BattleDetailResponse>() {
             @Override
