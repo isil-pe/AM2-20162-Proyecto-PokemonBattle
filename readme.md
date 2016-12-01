@@ -21,3 +21,7 @@ La aplicación mobile quiere representar un juego de pokemon, donde busco a un o
 ![](https://github.com/isil-pe/AM2-20162-Proyecto-PokemonBattle/blob/master/tbl_user.png)
 ![](https://github.com/isil-pe/AM2-20162-Proyecto-PokemonBattle/blob/master/tbl_user_battle.png)
 ![](https://github.com/isil-pe/AM2-20162-Proyecto-PokemonBattle/blob/master/lbl_user_detail.png)
+
+##Credenciales de usuario
+  -Usuario: jguanilo@angkorperu.com
+  -Contraseña: jguanilo
