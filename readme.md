@@ -16,3 +16,8 @@ La aplicación mobile quiere representar un juego de pokemon, donde busco a un o
 
 ##Interfaz de usuario:
 ![](https://github.com/isil-pe/AM2-20162-Proyecto-PokemonBattle/blob/master/pantallas.png)
+
+##Tablas backendless
+![](https://github.com/isil-pe/AM2-20162-Proyecto-PokemonBattle/blob/master/tbl_user.png)
+![](https://github.com/isil-pe/AM2-20162-Proyecto-PokemonBattle/blob/master/tbl_user_battle.png)
+![](https://github.com/isil-pe/AM2-20162-Proyecto-PokemonBattle/blob/master/tbl_user_detail.png)
